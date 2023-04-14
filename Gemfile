@@ -47,6 +47,8 @@ gem "jquery-rails"
 gem 'devise'
 gem 'devise-bootstrapped'
 
+gem 'apartment'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
