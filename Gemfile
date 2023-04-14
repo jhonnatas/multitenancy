@@ -47,7 +47,9 @@ gem "jquery-rails"
 gem 'devise'
 gem 'devise-bootstrapped'
 
-gem 'apartment'
+gem 'acts_as_tenant'
+
+gem 'annotate'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
