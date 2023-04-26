@@ -1,6 +1,7 @@
 class CompaniesController < ApplicationController
-  def index
+  def index   
     @companies = Company.all
+    #binding.break code used to debug
   end
  
   def new
