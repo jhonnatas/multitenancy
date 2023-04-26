@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'companies/new', to: 'companies#new'
-     post 'companies/create'
+ 
   devise_for :users
+
+  resources :companies
   root to: 'companies#index'
 end

@@ -18,6 +18,11 @@ class CompaniesController < ApplicationController
       end
     end
   end
+  
+  def show
+    @company = Company.friendly.find(params[:id])
+  end
+
  
   private
   def company_params

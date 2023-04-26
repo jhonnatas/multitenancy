@@ -51,6 +51,8 @@ gem 'acts_as_tenant'
 
 gem 'annotate'
 
+gem 'friendly_id', '~> 5.4.0'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
